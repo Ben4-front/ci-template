@@ -1,7 +1,6 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -13,7 +12,8 @@
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
-    "show:dist": "live-server dist"
+    "show:dist": "live-server dist",
+    "test": "jest --coverage"
   },
   "author": "Rysaev Damir <freepad@ya.ru>",
   "license": "MIT",
@@ -36,5 +36,14 @@
   },
   "dependencies": {
     "core-js": "^3.45.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben4-front/ci-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ben4-front/ci-template/issues"
+  },
+  "homepage": "https://github.com/Ben4-front/ci-template#readme",
+  "description": ""
 }
